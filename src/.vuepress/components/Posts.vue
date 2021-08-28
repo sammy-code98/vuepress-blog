@@ -1,28 +1,45 @@
 <template>
-    <div>
-        <div v-for="post in posts" :key="post.id">
-              <div>
-          <img v-if="post.frontmatter.image" :src="$withBase(post.frontmatter.image)" alt="">
-        </div>
-            <h2>
-            <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
-        </h2>
-        
-        <p>{{ post.frontmatter.description }}</p>
-        <p>Written By : {{post.frontmatter.author}}</p>
+  <div>
+    <div class="card" v-for="post in posts" :key="post.id">
+      <div>
+        <img
+          v-if="post.frontmatter.image"
+          :src="$withBase(post.frontmatter.image)"
+          alt=""
+        />
+      </div>
+      <h2 class="title">
+        <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
+      </h2>
 
-        <p><router-link :to="post.path">Read more</router-link></p>
-        </div>
+      <p>{{ post.frontmatter.description }}</p>
+      <p>Written By : {{ post.frontmatter.author }}</p>
+
+      <p><router-link :to="post.path">Read more</router-link></p>
     </div>
+  </div>
 </template>
 <script>
 export default {
-    computed:{
-        posts(){
-            return this.$site.pages
-            .filter(x => x.path.startsWith('/blog/') &&  !x.frontmatter.posts)
-        }
-    }
-    
-}
+  computed: {
+    posts() {
+      return this.$site.pages.filter(
+        (x) => x.path.startsWith("/blog/") && !x.frontmatter.posts
+      );
+    },
+  },
+};
 </script>
+<style scoped>
+.card {
+  height: auto;
+  width: 80%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.title{
+    text-align: center;
+}
+</style>
