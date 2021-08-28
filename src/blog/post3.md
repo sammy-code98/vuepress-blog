@@ -1,7 +1,9 @@
 ---
-title: Hello world
-description: Writing your first code
+image: https://v1.vuepress.vuejs.org/hero.png
+title: Get Started with vuepress
+description: Get Started with vuepress
 author: Emma Dev
 type: post
 ---
-# post 3
+
+# Get Started with vuepress

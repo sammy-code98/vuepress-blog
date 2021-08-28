@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://avatars.githubusercontent.com/u/68874364?v=4
 tagline: I am  a Full Stack Web Developer, passionate learner and a great writer
 
 features:
