@@ -1,13 +1,7 @@
 
+### my posts
+[post 1](post.md)
 
-# Config
+[post 2](post2.md)
 
-## foo
-
-- Type: `string`
-- Default: `/`
-
-## bar
-
-- Type: `string`
-- Default: `/`
+[post 3](post3.md)
