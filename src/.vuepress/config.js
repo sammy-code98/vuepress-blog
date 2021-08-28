@@ -37,8 +37,8 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: "Config",
-        link: "/config/",
+        text: "Blog",
+        link: "/blog/",
       },
     ],
   
