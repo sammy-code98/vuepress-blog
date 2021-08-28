@@ -1,7 +1,7 @@
+---
+posts: true
+---
+# My Blog  Posts
 
-### my posts
-[post 1](post.md)
-
-[post 2](post2.md)
-
-[post 3](post3.md)
+I write to share my development journey, inspire other developers and teach what i have learnt over the years
+<posts />

@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
+tagline: I am  a Full Stack Web Developer, passionate learner and a great writer
 
 features:
 - title: Feature 1 Title
