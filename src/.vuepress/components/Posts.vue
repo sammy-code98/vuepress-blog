@@ -54,4 +54,15 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* media query for description text */
+@media only screen and (max-width: 600px) {
+    .desc{
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .desc{
+        width: 500px;
+    }
+}
 </style>
