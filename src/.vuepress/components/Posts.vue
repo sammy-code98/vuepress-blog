@@ -12,7 +12,7 @@
         <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
       </h2>
       <p>Written By : {{ post.frontmatter.author }}</p>
-      <p>{{ post.frontmatter.description }}</p>
+      <p class="desc">{{ post.frontmatter.description }}</p>
 
       <p><router-link :to="post.path">Read more</router-link></p>
     </div>
@@ -45,5 +45,11 @@ export default {
     height: 200px;
     width: 100%;
     border-radius: 8px;
+}
+.desc{
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 </style>
