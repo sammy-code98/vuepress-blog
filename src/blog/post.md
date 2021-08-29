@@ -17,6 +17,7 @@ type: post
 This is solely my idea and has nothing to do with adverts sales or promotion
 :::
 
+
 The windows operating system developed by  [Microsoft Corporation](https://www.microsoft.com/en-ng)
 was my go-to as a CS student as it was used for most of my clasess and projects in school.
 
