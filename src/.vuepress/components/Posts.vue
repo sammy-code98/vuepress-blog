@@ -1,8 +1,9 @@
 <template>
   <div>
     <div class="card" v-for="post in posts" :key="post.id">
-      <div >
-        <img class="post-img"
+      <div>
+        <img
+          class="post-img"
           v-if="post.frontmatter.image"
           :src="$withBase(post.frontmatter.image)"
           alt=""
@@ -13,6 +14,7 @@
       </h2>
       <p>Written By : {{ post.frontmatter.author }}</p>
       <p class="desc">{{ post.frontmatter.description }}</p>
+      <p>{{ post.readingTime.text }}</p>
 
       <p><router-link :to="post.path">Read more</router-link></p>
     </div>
@@ -41,15 +43,15 @@ export default {
 .title {
   text-align: center;
 }
-.post-img{
-    height: 200px;
-    width: 100%;
-    border-radius: 8px;
+.post-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
 }
-.desc{
-    width: 600px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.desc {
+  width: 600px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>

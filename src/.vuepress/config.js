@@ -41,11 +41,16 @@ module.exports = {
         link: "/blog/",
       },
     ],
-  
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+  plugins: [
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "@vuepress/last-updated",
+    "vuepress-plugin-reading-time",
+    "@vuepress/back-to-top",
+  ],
 };
