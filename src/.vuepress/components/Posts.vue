@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="card-container">
     <div class="card" v-for="post in posts" :key="post.id">
       <div>
         <img
@@ -32,10 +32,15 @@ export default {
 };
 </script>
 <style scoped>
+ .card-container{
+  display: grid;
+   grid-template-columns: auto auto auto; 
+}
 .card {
+  
   height: auto;
-  width: 80%;
-  margin: 20px;
+  width: 200px;
+  margin: 10px;
   padding: 20px;
   border-radius: 12px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -49,20 +54,24 @@ export default {
   border-radius: 8px;
 }
 .desc {
-  width: 600px;
+  width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 /* media query for description text */
 @media only screen and (max-width: 600px) {
-    .desc{
-        width: 250px;
-    }
+    
+     .card-container{
+       display: block;
+     }
+     .card{
+       width: 80%;
+     }
 }
 @media only screen and (min-width: 600px) {
-    .desc{
-        width: 500px;
+    .card{
+    width: 80%;
     }
 }
 </style>
