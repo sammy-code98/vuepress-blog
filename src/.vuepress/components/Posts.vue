@@ -35,6 +35,7 @@ export default {
  .card-container{
   display: grid;
    grid-template-columns: auto auto auto; 
+   grid-column-gap: 25px;
 }
 .card {
   
