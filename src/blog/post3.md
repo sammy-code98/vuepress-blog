@@ -76,3 +76,11 @@ This is a dangerous warning
   </li>
 </ul>
 ```
+
+
+
+
+### Find it interesting? Do well to share with your loved ones
+
+
+<social-share :networks="['facebook', 'twitter', 'whatsapp', 'telegram']"/>

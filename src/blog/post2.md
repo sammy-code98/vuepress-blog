@@ -30,3 +30,10 @@ Laptop stickers are pretty much walking advertisements. The portable device goes
 For those of you that love Python and wouldn’t mind spreading the word, we’ve got an amazing array of hand-designed laptop stickers for Python developers in our online store. Check them out and get ready for a sticky addition to your laptop!
 
 Do any of these reasons line up with your own for stickering your laptop? Have we missed something? If so, head on over to @nerdlettering and let us know! We hope this article has rekindled your desire to make your laptop sticky and fun.
+
+
+
+### Find it interesting? Do well to share with your loved ones
+
+
+<social-share :networks="['facebook', 'twitter', 'whatsapp', 'telegram']"/>
