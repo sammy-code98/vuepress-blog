@@ -41,6 +41,11 @@ module.exports = {
         link: "/blog/",
       },
     ],
+    sidebar:[
+      '/blog/post',
+      '/blog/post2',
+      'blog/post3'
+    ]
   },
 
   /**
