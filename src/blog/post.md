@@ -32,3 +32,6 @@ Hope you get to make a good decision about your OS after now.
 
 
 👍 💯 🔥
+
+
+<social-share :networks="['facebook', 'twitter', 'whatsapp', 'telegram']"/>

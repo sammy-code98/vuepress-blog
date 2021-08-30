@@ -52,5 +52,9 @@ module.exports = {
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
     "@vuepress/back-to-top",
+    "social-share",
+    {
+      networks: ['twitter', 'facebook', 'whatsapp', 'telegram']
+    }
   ],
 };
