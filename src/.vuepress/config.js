@@ -43,7 +43,12 @@ module.exports = {
       {
         text: "Blog",
         link: "/blog/",
+      },
+      {
+        text: 'Resume',
+        link:"https://docs.google.com/document/d/1fsU-d9X2q75zOPBmkSTSgHXRPCy2fQrsWLxJMKNanF4/edit?usp=sharing"
       }
+
       
     ],
     sidebar:[
