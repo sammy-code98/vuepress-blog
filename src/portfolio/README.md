@@ -1,5 +1,6 @@
 ---
 sidebar: false
+projects: true
 ---
 # My projects
 
