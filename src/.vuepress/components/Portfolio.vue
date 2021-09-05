@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="portfolio-card">
-        <div class="project-image"></div>
-        <div class="project-desc"></div>
+    <div class="portfolio-card" v-for="project in projects" :key="project.name">
+      <div class="project-image"></div>
+      <div class="project-desc"></div>
     </div>
   </div>
 </template>
@@ -11,20 +11,32 @@ export default {
   data() {
     return {
       projects: [
-        { name: "", description: "" },
-        { name: "", description: "" },
-        { name: "", description: "" },
+        {
+          name: "Lola",
+          description:
+            "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
+        },
+        {
+          name: "Lola",
+          description:
+            "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
+        },
+        {
+          name: "Lola",
+          description:
+            "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
+        },
       ],
     };
   },
 };
 </script>
 <style scoped>
-.portfolio-card{
-    width: 100%;
-    height: 300px;
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.portfolio-card {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 </style>
