@@ -4,7 +4,11 @@
       <div class="project-image">
         <img :src="project.image" alt="project image" />
       </div>
-      <div class="project-desc"></div>
+      <div class="project-desc">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+        <button class="live-btn">See Live</button>
+      </div>
     </div>
   </div>
 </template>
@@ -18,18 +22,21 @@ export default {
           image: "../image/img1.png",
           description:
             "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
+          link: "www.google.com",
         },
         {
           name: "Lola2",
           image: "../image/img1.png",
           description:
             "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
+          link: "www.google.com",
         },
         {
           name: "Lola23",
           image: "../image/img1.png",
           description:
             "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
+          link: "www.google.com",
         },
       ],
     };
@@ -38,10 +45,20 @@ export default {
 </script>
 <style scoped>
 .portfolio-card {
+  display: flex;
   width: 100%;
   height: 300px;
   border-radius: 12px;
   margin-top: 80px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project-desc {
+  margin: 40px;
+}
+.live-btn{
+  border: none;
+  outline: none;
+color:#3eaf7c;
+background: #fff;
 }
 </style>
