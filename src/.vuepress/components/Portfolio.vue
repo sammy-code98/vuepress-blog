@@ -7,7 +7,7 @@
       <div class="project-desc">
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
-        <button class="live-btn">See Live</button>
+        <button class="live-btn">View Live</button>
       </div>
     </div>
   </div>
@@ -58,7 +58,13 @@ export default {
 .live-btn{
   border: none;
   outline: none;
+  border-radius: 8px;
 color:#3eaf7c;
 background: #fff;
+font-size: 15px;
+cursor: pointer;
+padding: 10px;
 }
+.live-btn:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
 </style>
