@@ -7,7 +7,7 @@
       <div class="project-desc">
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
-        <button class="live-btn">View Live</button>
+        <button class="live-btn" >View Live</button>
       </div>
     </div>
   </div>
