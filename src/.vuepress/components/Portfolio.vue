@@ -1,5 +1,6 @@
 <template>
     <div>
+
         hello felleas
     </div>
 </template>
@@ -7,7 +8,9 @@
 export default {
     data(){
 return{
-    projects : []
+    projects : [
+        {}
+    ]
 }
     }
 }
