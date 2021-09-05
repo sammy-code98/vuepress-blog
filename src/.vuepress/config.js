@@ -50,11 +50,6 @@ module.exports = {
       }
 
       
-    ],
-    sidebar:[
-      '/blog/post',
-      '/blog/post2',
-      'blog/post3'
     ]
   },
 
