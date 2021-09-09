@@ -19,21 +19,21 @@ export default {
       projects: [
         {
           name: "Lola",
-          image: "../image/img1.png",
+          image: require("../../assets/image/img1.png"),
           description:
             "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
           link: "www.google.com",
         },
         {
           name: "Lola2",
-          image: "../image/img2.png",
+          image: require("../../assets/image/img2.png"),
           description:
             "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
           link: "www.google.com",
         },
         {
           name: "Lola23",
-          image: "../image/img3.png",
+          image: require("../../assets/image/img3.png"),
           description:
             "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gathering, the developers sought to create a game within the same genre that significantly lowered",
           link: "www.google.com",
