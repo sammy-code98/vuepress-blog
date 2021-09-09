@@ -54,7 +54,10 @@ export default {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .project-desc {
-  
+  width: 50%;
+  margin: 5px;
+  padding-right: 30px;
+ 
 }
 .live-btn {
   border: none;
@@ -68,10 +71,13 @@ export default {
 }
 .live-btn:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
 }
 .project-image {
   width: 80%;
   height: 95%;
   margin: 7px;
+  border-radius: 5px;
 }
+
 </style>
