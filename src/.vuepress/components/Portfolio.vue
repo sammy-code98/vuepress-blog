@@ -18,24 +18,21 @@ export default {
     return {
       projects: [
         {
-          name: "Lola",
+          name: "Documentation site",
           image: require("../../assets/image/img1.png"),
-          description:
-            "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gatheri",
+        description:"Built with Vuepress, this site utilises the benefits of markdown and houses the documentation for the react-image-plugin.",
           link: "www.google.com",
         },
         {
-          name: "Lola2",
+          name: "Ebsirs",
           image: require("../../assets/image/img2.png"),
-          description:
-            "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gatheri",
+          description:"A demo template for the Ebonyi State Internal Revenue Service Board",
           link: "www.google.com",
         },
         {
-          name: "Lola23",
+          name: "Prudent Blog",
           image: require("../../assets/image/img3.png"),
-          description:
-            "Legends of Runeterra is a 2020 digital collectible card game developed and published by Riot Games. Inspired by the physical collectible card game Magic: The Gatheri",
+          description:"Blog Template built with Nextjs and Sanity.io(a headless content management system)",
           link: "www.google.com",
         },
       ],
