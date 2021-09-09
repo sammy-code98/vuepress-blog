@@ -7,7 +7,13 @@
       <div class="project-desc">
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
-        <a :href="project.link" class="live-btn" target="_blank" rel="noreferrer noopener">View Live</a>
+        <a
+          :href="project.link"
+          class="live-btn"
+          target="_blank"
+          rel="noreferrer noopener"
+          >View Live</a
+        >
       </div>
     </div>
   </div>
@@ -80,5 +86,27 @@ export default {
   height: 95%;
   margin: 7px;
   border-radius: 5px;
+}
+/* media query */
+@media only screen and (max-width: 600px) {
+  .portfolio-card {
+    display:grid;
+    height: 430px;
+    
+  }
+  .project-image{
+    width:300px;
+
+  }
+  .project-desc{
+    text-align: center;
+    width: 100%;
+    padding-right: 8px;
+    margin-right: 40px;
+  }
+
+  
+ 
+  
 }
 </style>
