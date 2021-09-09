@@ -7,8 +7,7 @@
       <div class="project-desc">
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
-        
-        <a :href="project.link" class="live-btn">View Live</a>
+        <a :href="project.link" class="live-btn" target="_blank" rel="noreferrer noopener">View Live</a>
       </div>
     </div>
   </div>
