@@ -7,9 +7,8 @@
       <div class="project-desc">
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
-        <router-link :to="project.link" class="live-btn">
-          View Live
-        </router-link>
+        
+        <a :href="project.link" class="live-btn">View Live</a>
       </div>
     </div>
   </div>
@@ -74,7 +73,7 @@ export default {
 .live-btn:hover {
   background: #3eaf7c;
   color: #fff;
-text-decoration: none;
+  text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .project-image {
