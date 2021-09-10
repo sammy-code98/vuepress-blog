@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://avatars.githubusercontent.com/u/46542941?s=400&u=911a205d4d861726c436777db3fe8705d7189845&v=4
-tagline: I am  a Full Stack Web Developer, passionate learner and a great writer
+tagline: I am  a Front End  Web Developer, passionate learner and a great writer
 
 features:
 - title: Passionate

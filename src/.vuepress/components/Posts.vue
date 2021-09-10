@@ -49,8 +49,7 @@ export default {
 .title {
   text-align: justify;
   font-size: 20px;
-  /* padding: 5px; */
-  /* margin: 10px; */
+
 }
 .post-img {
   height: 200px;
