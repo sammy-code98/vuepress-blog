@@ -35,14 +35,14 @@ export default {
           image: require("../../assets/image/img2.png"),
           description:
             "A demo template for the Ebonyi State Internal Revenue Service Board",
-          link: "https://ebsirs-gov-ng.netlify.app/",
+          link: "https://ebonyi-rev.netlify.app/",
         },
         {
-          name: "Prudent Blog",
+          name: "Prudent Words Blog",
           image: require("../../assets/image/img3.png"),
           description:
-            "Blog Template built with Nextjs and Sanity.io(a headless content management system)",
-          link: "https://prudentword.vercel.app/",
+            "Blog Template built with Quasar",
+          link: "https://prudent-words.netlify.app",
         },
       ],
     };
