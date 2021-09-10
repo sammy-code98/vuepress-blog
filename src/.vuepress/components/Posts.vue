@@ -47,7 +47,10 @@ export default {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .title {
-  text-align: center;
+  text-align: justify;
+  font-size: 20px;
+  /* padding: 5px; */
+  /* margin: 10px; */
 }
 .post-img {
   height: 200px;
